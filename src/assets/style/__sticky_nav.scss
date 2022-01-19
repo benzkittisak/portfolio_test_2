@@ -1,0 +1,19 @@
+.stick{
+    background-color: white;
+    box-shadow: 0 2px 10px rgba($color: black, $alpha: 0.1);
+    .socials-list{
+        a{
+            color: $text-color;
+        }
+    }
+    .mainnav {
+        ul{
+            li{
+                a{
+                    line-height: 70px;
+                   
+                }
+            }
+        }
+    }
+}

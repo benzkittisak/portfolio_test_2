@@ -1,0 +1,35 @@
+.experienced{
+    background:url('https://i3.fpic.cc/file/img-b1/2022/01/19/19.png');
+    background-size: cover;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 238px 0;
+}
+
+.flat-title{
+    .title-section{
+        font-size: 50px;
+        line-height: 60px;
+        padding-bottom: 40px;
+    }
+}
+
+.iconbox{
+    padding: 50px 41px 48px 50px;
+    border-radius: 4px;
+    border: 1px solid #e9e0e9;
+    transition: 0.4s all ease-in-out;
+
+    p{
+        padding: 10px 0;
+        font-weight: 300;
+        color: #bdbdbd;
+    }
+
+    &:hover{
+        border-color: $theme-color;
+    }
+}

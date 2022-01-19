@@ -1,0 +1,40 @@
+.footer{
+    background-image: url('https://i3.fpic.cc/file/img-b1/2022/01/19/02.jpg');
+    background-size: cover;
+
+    .bottom{
+        padding: 52px;
+
+        .copyright{
+            font-size: 16px;
+            color: #59608b;
+            letter-spacing: 0.2px;
+            font-weight: 300;
+        }
+
+        ul.footer-widget-nav{
+            padding: 0;
+            list-style: none;
+            margin: 0;
+
+            li{
+                float: left;
+
+                a {
+                    font-weight: 300;
+                    display: block;
+                    font-size: 17px;
+                    text-decoration: none;
+                    color: #565d87;
+                    padding-right: 45px;
+                    letter-spacing: 1.3px;
+                    transition: 0.4s ease-in-out;
+
+                    &:hover{
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+.banner-section {
+  background-color: $banner-color;
+  border-bottom-left-radius: 120px;
+  overflow: hidden;
+
+  .custom-container {
+    height: 100%;
+  }
+
+  .featured-post-left {
+    width: 645px;
+    background-image: url("https://i3.fpic.cc/file/img-b1/2022/01/18/IMG_0274.md.jpg");
+    background-size: cover;
+    position: relative;
+    //   border-bottom-left-radius: 120px;
+  }
+
+  .featured-post-right {
+    width: calc(100% - 645px);
+    background: url("https://i3.fpic.cc/file/img-b1/2022/01/18/18e11103f62ba44933.jpg");
+    background-size: cover;
+    padding: 250px 0 254px 102px;
+    border-bottom-left-radius: 120px;
+  }
+
+  .content-text {
+    .title {
+      font-size: 90px;
+      line-height: 100px;
+      color: $text-color;
+      padding: 20px 0;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 36px;
+      font-weight: 500;
+    }
+
+    .tag {
+      font-size: 18px;
+      padding-bottom: 10px;
+    }
+    .feature-head-line {
+      display: flex;
+      color: white;
+      margin-top: 20px;
+      h1 {
+        font-weight: bolder;
+      }
+      .Typewriter {
+        font-weight: bolder;
+        color: $banner-color;
+      }
+    }
+    .banner-text {
+      width: 500px;
+    }
+
+    .site-list {
+        padding: 40px 0 0px 0;
+      a {
+        margin-right: 15px;
+        color: white;
+        font-size: 32px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

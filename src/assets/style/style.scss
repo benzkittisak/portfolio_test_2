@@ -1,0 +1,38 @@
+@import './_variables';
+@import './_animation';
+
+@import './_header';
+@import './_banner';
+@import './_about';
+@import './_icon';
+@import './_services';
+@import './_education';
+@import './_portfolio';
+@import './_footer';
+@import './_sticky_nav';
+
+@import 'swiper/css/bundle';
+
+
+.theme-color{
+    color: $theme-color;
+}
+
+.text-color{
+    color:$text-color;
+}
+
+.flat-title {
+    .sub-title {
+      font-size: 24px;
+      position: relative;
+      display: inline-block;
+      font-family: $sub-title;
+    }
+
+    .title-section {
+      font-size: 50px;
+      line-height: 60px;
+      font-weight: bold;
+    }
+  }

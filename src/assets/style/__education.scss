@@ -1,0 +1,77 @@
+.education {
+  padding: 252px 0;
+
+  .content-inside {
+    padding-top: 70px;
+
+    .col-right {
+      padding: 0 114px 0 116px;
+    }
+
+    .experience-box {
+      background-color: #fffbf5;
+      padding: 33px 30px 32px 31px;
+      margin-bottom: 21px;
+      border-radius: 5px;
+
+      .box-inner {
+        padding-left: 35px;
+        position: relative;
+
+        &::before {
+          background-color: $theme-color;
+          content: "";
+          width: 15px;
+          height: 15px;
+          display: inline-block;
+          top: 4px;
+          left: 0;
+          position: absolute;
+          border-radius: 15px;
+        }
+
+        &.color-y {
+          &::before {
+            background-color: $banner-color;
+          }
+          h3 {
+            color: $banner-color;
+          }
+        }
+
+        &.color-p {
+            &::before {
+              background-color: $purple-color;
+            }
+            h3 {
+              color: $purple-color;
+            }
+          }
+      }
+
+      .content-title {
+        color: $theme-color;
+        margin-bottom: 8px;
+        font-size: 17px;
+        letter-spacing: 0.7px;
+        position: relative;
+        font-weight: 500;
+      }
+
+      .sub-content-title {
+        font-size: 20px;
+        letter-spacing: 0.1px;
+        font-weight: 400;
+        color: #868686;
+      }
+
+      p{
+          padding-top: 10px;
+          line-height: 24px;
+          letter-spacing: 0.1px;
+          font-weight: 200;
+          color: #868686;
+      }
+    }
+  }
+}
