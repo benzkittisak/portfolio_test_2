@@ -17,6 +17,24 @@ const PortfolioSlider = () => {
     },
     loop: true,
     spaceBetween: 30,
+    breakpoints:{
+      1080:{
+        slidesPerView: 4,
+
+      }
+      ,
+      800:{
+        slidesPerView:3,
+        spaceBetween: 30,
+      },
+      760:{
+        slidesPerView:2,
+      },
+      600:{
+        slidesPerView:2,
+
+      }
+    }
   };
 
   return (

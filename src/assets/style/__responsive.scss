@@ -1,0 +1,109 @@
+@media only screen and (max-width: 1600px) {
+  .about-me {
+    padding: 234px 0;
+  }
+  .banner-section {
+    .featured-post-left {
+      width: unset;
+      display: none;
+    }
+
+    .featured-post-right {
+      width: 100%;
+    }
+  }
+
+  .fact {
+    margin: 0 auto;
+    top: unset;
+    right: unset;
+    position: relative;
+    transform: unset;
+    padding: 50px 0 0;
+
+    .col-left {
+      width: 100%;
+      display: flex;
+    }
+    .col-right {
+      width: 100%;
+      padding-left: 0px;
+    }
+
+    .f-item {
+      margin: 0 15px 30px 15px;
+
+      .inner {
+        transform: unset;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .content-menu {
+      .mainnav{
+          display: none;
+      }
+  }
+
+  .banner-section {
+    .content-text {
+      .title {
+        font-size: 60px;
+      }
+    }
+  }
+  .iconbox {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .education {
+    padding: 234px 0;
+
+    .content-inside {
+      .col-left {
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .col-right {
+        padding: 0;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+  .about-me {
+    .flat-title {
+      .title-section {
+        font-size: 36px;
+        line-height: 50px;
+      }
+    }
+  }
+
+  .banner-section {
+    .featured-post-left {
+      display: none;
+    }
+  }
+
+  .fact{
+      .col-left{
+          display: block;
+          width: 100%;
+      }
+  }
+
+  .f-item{
+      .counter-box{
+          width: 100%;
+      }
+  }
+}
