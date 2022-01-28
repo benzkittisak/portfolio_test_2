@@ -4,18 +4,20 @@ import MobileNavMenu from '../mobile-nav-menu/mobile-nav-menu.component';
 const MobileMenu = () => {
 
     const closeMobileMenu = () => {
-        const offcanvasMobileMenu = document.querySelect('#offcanvas-mobile-menu')
+        const offcanvasMobileMenu = document.querySelector('#offcanvas-mobile-menu')
         offcanvasMobileMenu.classList.remove('active');
     }
 
     return (
         <div className="offcanvas-mobile-menu" id="offcanvas-mobile-menu">
-            <button id="offcanvas-mobile-close" onClick={() => closeMobileMenu()}>
+            <button id="offcanvas-mobile-close" className='offcanvas-mobile-close' onClick={() => closeMobileMenu()}>
                 <i className="fad fa-times"></i>
             </button>
 
             <div className="offcanvas-wrapper">
-                <MobileNavMenu />
+                <div className="offcanvas-inner-content">
+                    <MobileNavMenu />
+                </div>
             </div>
         </div>
     )

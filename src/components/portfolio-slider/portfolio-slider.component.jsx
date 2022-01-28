@@ -32,7 +32,9 @@ const PortfolioSlider = () => {
       },
       600:{
         slidesPerView:2,
-
+      },
+      500:{
+        slidesPerView:1
       }
     }
   };

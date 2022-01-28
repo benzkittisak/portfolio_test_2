@@ -23,6 +23,11 @@ const Header = () => {
     setScroll(window.scrollY);
   }
 
+  const triggerMobileMenu = () => {
+    const offcanvasMobileMenu = document.querySelector('#offcanvas-mobile-menu')
+    offcanvasMobileMenu.classList.add('active')
+  }
+
   return(
         <header id="header" className={`header header-style ${scroll > headerTop ? 'stick' : ''}`}>
         <div className="container">
@@ -53,7 +58,13 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
+              <div className="mobile-off-canvas d-block d-lg-none">
+                <button className="mobile-aside-button" onClick={() => triggerMobileMenu()}>
+                    <i className="fad fa-bars"></i>
+                </button>
+              </div>
             </div>
+
             <MobileMenu />
           </div>
          
